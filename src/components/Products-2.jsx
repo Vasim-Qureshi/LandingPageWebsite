@@ -54,11 +54,11 @@ const ProductsSlider = () => {
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
-        className="max-w-6xl mx-auto"
+        className="max-w-6xl mx-auto border rounded-lg"
       >
         {products.map((p) => (
           <SwiperSlide key={p.id}>
-            <div className="bg-yellow-50 p-4 rounded-lg shadow hover:shadow-lg transition-all duration-300">
+            <div className="bg-yellow-500 p-8 border rounded-lg shadow hover:shadow-lg transition-all duration-300">
               <img
                 src={p.img}
                 alt={p.name}
