@@ -14,7 +14,7 @@ const Footer = () => {
           <h4 className="text-xl font-bold mb-2">Contact Us</h4>
           <ul className="space-y-2">
             <li>
-              📞 <a href="tel:+919999999999" className="hover:underline">+91 99999 99999</a>
+              📞 <a href="tel:+919999999999" className="hover:underline">+91 9999999999</a>
             </li>
             <li>
               📧 <a href="mailto:info@glownest.in" className="hover:underline">info@glownest.in</a>
